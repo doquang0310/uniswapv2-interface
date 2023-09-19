@@ -22,7 +22,10 @@ const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   3: 'ropsten.',
   4: 'rinkeby.',
   5: 'goerli.',
-  42: 'kovan.'
+  42: 'kovan.',
+  //todo-quang: update this address
+  204: 'opbnb.', //todo-quang: update this
+  5611: 'opbnbt.' //todo-quang: update this
 }
 
 export function getEtherscanLink(
